@@ -76,7 +76,7 @@ def fetch_history(date, stock):
         date0_summary = history.iloc[date0_index]
         date1_summary = history.iloc[date1_index]
 
-        stock['history']['date'] = date0_summary.name.strftime('%Y-%m-%d'),
+        stock['history']['date'] = date0_summary.name.strftime('%Y-%m-%d')
         stock['history']['open'] = double(date0_summary.get('Open'))
         stock['history']['high'] = double(date0_summary.get('High'))
         stock['history']['low'] = double(date0_summary.get('Low'))
@@ -88,8 +88,8 @@ def fetch_history(date, stock):
     if date1_index > 0 and date2_index > 0:
         date1_summary = history.iloc[date1_index]
         date2_summary = history.iloc[date2_index]
-        
-        stock['history']['previous']['date'] = date1_summary.name.strftime('%Y-%m-%d'),
+
+        stock['history']['previous']['date'] = date1_summary.name.strftime('%Y-%m-%d')
         stock['history']['previous']['open'] = double(date1_summary.get('Open'))
         stock['history']['previous']['high'] = double(date1_summary.get('High'))
         stock['history']['previous']['low'] = double(date1_summary.get('Low'))
