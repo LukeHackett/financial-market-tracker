@@ -1,4 +1,3 @@
-
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
 
@@ -106,5 +105,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# virtualenv
+venv
 
 # End of https://www.gitignore.io/api/python

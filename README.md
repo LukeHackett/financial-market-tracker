@@ -13,6 +13,8 @@ See deployment for notes on how to deploy the project on a live system.
 All dependencies are managed with pip, and thus installing the project's dependencies is as simple as:
 
 ```
+$ python3 -m venv venv
+$ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
