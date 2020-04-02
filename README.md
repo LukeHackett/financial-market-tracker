@@ -35,4 +35,4 @@ See also the list of [contributors](https://github.com/LukeHackett/financial-mar
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.c](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details
